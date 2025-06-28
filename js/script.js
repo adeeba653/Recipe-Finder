@@ -349,7 +349,7 @@ async function renderFavorites() {
 
     if (favorites.length === 0) {
         favoritesGrid.innerHTML = "<p>No favorite meals added yet.</p>";
-        favoritesGrid.style.color = darkred;
+        favoritesGrid.style.color = "darkred";
         return;
     }
 
@@ -380,8 +380,8 @@ async function renderFavorites() {
         });
 
         favoritesGrid.appendChild(card);
-        setupFavoriteIcons();
-    }
+       
+    } setupFavoriteIcons();
 }
 
 // Run on page load
