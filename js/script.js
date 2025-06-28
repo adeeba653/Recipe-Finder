@@ -102,8 +102,8 @@ const btn3 = document.querySelector('#btn3');
 const btn4 = document.querySelector('#btn4');
 
 function setupFormListeners() {
-    const searchForm = document.querySelector(`#${search_area} _search`);
-    const mealGrid = document.querySelector(`#${result_area} _results.mealGrid`);
+    const searchForm = document.querySelector(`#${search_area}_search`);
+    const mealGrid = document.querySelector(`#${result_area}_results .mealGrid`);
 
     if (searchForm && mealGrid) {
         searchForm.onsubmit = function (e) {
